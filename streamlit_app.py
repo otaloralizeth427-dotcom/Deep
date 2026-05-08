@@ -160,7 +160,7 @@ with col2:
 
     st.image(
         "hero_image.png",
-        width="600"
+        width=600
     )
 
 # =========================
