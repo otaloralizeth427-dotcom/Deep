@@ -81,9 +81,9 @@ header {visibility:hidden;}
 
     background:linear-gradient(
         135deg,
+        #020617,
         #0f172a,
-        #1e3a8a,
-        #2563eb
+        #1e3a8a
     );
 
     padding:40px;
@@ -160,7 +160,7 @@ with col2:
 
     st.image(
         "hero_image.png",
-        use_container_width=True
+        width="stretch"
     )
 
 # =========================
@@ -308,19 +308,11 @@ if uploaded_file is not None:
 
         st.write("")
 
-        # =========================
-        # BARRA DE CONFIANZA
-        # =========================
-
         st.progress(
             float(confidence)
         )
 
         st.write("")
-
-        # =========================
-        # PROBABILIDADES
-        # =========================
 
         st.markdown(
             f"""
@@ -499,7 +491,7 @@ st.markdown(
     """
     <center style='color:#9ca3af;'>
 
-    Desarrollado con TensorFlow, CNNs y Explainable AI
+    Desarrollado con TensorFlow, CNNs e Inteligencia Artificial Explicable
 
     </center>
     """,
