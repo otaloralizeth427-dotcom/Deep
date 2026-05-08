@@ -2,6 +2,5 @@ streamlit
 tensorflow
 numpy
 matplotlib
-opencv-python
-pillow
-h5py
+opencv-python-headless
+Pillow
